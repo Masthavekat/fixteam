@@ -17,6 +17,9 @@ button{
     font-family: 'Comfortaa', cursive;
     color: #232323;
 }
+select{
+    color: #666;
+}
 .container{
    max-width: 1220px;
    padding: 0 10px;
@@ -90,11 +93,17 @@ header{
 .top__link{
     margin-top: 20px;
     text-decoration: none;
-    color: #666;
+    color: #232323;
     background-color: #f7e841;
     padding: 16px 18px;
     display: inline-block;
-    
+    border-radius: 20px;
+    transition: all .5s;
+}
+.top__link:hover{
+    transition: all .5s;
+    background-color: #232323;
+    color: #fff;
 }
 .heading__inner{
     background-color: #f7e841;
@@ -104,9 +113,7 @@ header{
     padding: 18px 15px;
     font-weight: 300;
     text-align: center;
-    
 }
-
 .review{
     padding: 25px;
 }
@@ -133,6 +140,11 @@ header{
     text-decoration: none;
     color: #8f8f8f;
     line-height: 38px;
+    transition: all .5s;
+}
+.footer__menu-a:hover{
+    color: #fff;
+    border-bottom: 1px solid rgb(230, 230, 230);
 }
 .footer__form{
     color: #8f8f8f;
@@ -166,6 +178,10 @@ header{
     display: inline-block;
     font-family: 'Comfortaa', cursive;
     font-size: 16px;
+    transition: all .5s !important;
+}
+.footer__buttom:hover{
+    background-color: #fff;
 }
 .aboutus_banner{
     background-repeat: no-repeat;
@@ -333,6 +349,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .aboutus__article-item1{
     text-align: center;
@@ -414,12 +431,12 @@ header{
 }
 .aboutus__btm2:hover{
     background-color: #000;
-    color: #666;
+    color: #fff;
 }
 .cracked__screen{
-    background-repeat: no-repeat;
-    background-position: right;
-    min-height: 77vh;
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+    min-height: 70vh;
 }
 .aboutus__txt-3{
     padding-top: 220px;
@@ -482,7 +499,7 @@ header{
     margin-top: 50px;
     box-shadow:0 0 15px #8f8f8f;
     padding: 50px 40px 50px;
-    width: 400px;
+    width: 430px;
 }
 .contact__item-form{
     display: flex;
@@ -490,7 +507,6 @@ header{
 }
 .contacts__form{
     width: 230px;
-    height: 40px !important;
     background: #ECECEC;
     border-radius: 50px;
     margin-bottom: 10px;
@@ -504,6 +520,18 @@ header{
 .contacts__form4{
     padding-bottom: 75px;
     border-radius: 25px;
+}
+.contacts__form5{
+    color: #666;
+    border-radius: 50px;
+    width: 280px;
+}
+.contacts__form6{
+    color: #666;
+    border-radius: 50px;
+    width: 280px;
+    background: #ECECEC;
+    padding: 10px;
 }
 .contact__item-lable{
     font-weight: bold;
@@ -525,6 +553,23 @@ header{
     border: none;
     transition: all .2s;
     background-color: #f7e841;
-    margin-left: 120px;
+    margin-left: 150px;
     font-family: 'Comfortaa', cursive;
+    transition: all 0.5s;
+}
+.contact__item-btm:hover{
+    background: #232323;
+    color: #fff;
+}
+.media__item{
+    margin: 25px;
+}
+.media__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.media__audio{
+    margin-top: 25px;
 }
